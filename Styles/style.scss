@@ -1,0 +1,102 @@
+@import 'colors';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+background: $sondry_2;
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+z-index: 999;
+
+}
+nav{
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+ 
+    a{
+        display: inline-block;
+        padding: 15px 120px ;
+        text-decoration: none;
+        color: black;
+    }
+    & :hover{
+        color: firebrick;
+        transition: all 0.3s ease;
+    }
+
+}
+body{
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    .main{
+        text-align: center;
+        margin-top: 250px;
+        margin-right: 600px;
+        font-size: 1em;
+        font-weight: 500;
+   
+    }
+    .main h2{
+        color: $thired_3;
+
+    }
+    .main h2 span{
+        display: inline-block;
+        margin-top: 10px;
+        color: #c5ab9b;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .main h3{
+        color: $thired_3;
+        font-size: 1.2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .main-btn{
+        color: white;
+        background-color: $fourth_4;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 600;
+        display: inline-block;
+        padding: 0.9375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        transition: 0.7s ease;
+    }
+    .main-btn:hover{
+        background-color: $fifth_5;
+        transform: scale(1.1);
+
+    }
+
+    .icons a {
+        color: $six_6;
+        font-size: 1.7em;
+        padding-right: 30px;
+    }
+
+
+
+
+
+
+
+
+
